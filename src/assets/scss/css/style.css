@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.default-height, main {
+  min-height: 550px; }
+
+.page-header h1 {
+  font-size: 25px; }
+
+.about-inner-container {
+  padding-bottom: 10px; }
+  .about-inner-container ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; }
+    .about-inner-container ul li {
+      width: 232px;
+      padding: 15px;
+      margin-bottom: 10px; }
+      .about-inner-container ul li div {
+        text-align: center;
+        overflow-wrap: break-word; }
+        .about-inner-container ul li div div:nth-child(3) {
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+      .about-inner-container ul li div:first-child img {
+        border-radius: 50%;
+        max-width: 50%; }
+      .about-inner-container ul li:hover {
+        border: 1px solid #adabab;
+        box-shadow: 1px 1px 8px 0px #adabab; }
+
+.product-card {
+  margin: 0 auto;
+  list-style: none;
+  border: 1px solid #adabab;
+  box-shadow: 1px 1px 8px 0px #adabab;
+  width: 229px;
+  padding: 15px; }
+  .product-card li img {
+    max-width: 100%;
+    height: 112px;
+    margin-bottom: 10px; }
+  .product-card li .card-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .product-card li .card-name h3 {
+      width: 130px;
+      overflow-wrap: break-word; }
+    .product-card li .card-name span {
+      font-size: 20px;
+      overflow-wrap: break-word;
+      text-align: center; }
+  .product-card li .view-more {
+    padding-top: 10px;
+    text-align: center; }
+    .product-card li .view-more a {
+      text-decoration: none; }
+  .product-card li:first-child {
+    padding: 0; }
+
+.card-action {
+  display: flex;
+  justify-content: space-between; }
+  .card-action .input-group {
+    display: flex; }
+    .card-action .input-group .input-group-addon {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .card-action .input-group button {
+      padding: 0px 12px; }
+
+.msg-container {
+  color: #f00;
+  fontSize: 12px;
+  position: absolute; }
+
+.cart-card-action {
+  display: flex; }
+  .cart-card-action .input-group {
+    display: flex; }
+    .cart-card-action .input-group .input-group-addon {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .cart-card-action .input-group button {
+      padding: 0px 12px; }
+
+.nav.navbar-nav.navbar-right li div {
+  padding: 15px; }
+  .nav.navbar-nav.navbar-right li div a {
+    text-decoration: none; }
+
+.table.table-striped.table-condensed.table-hover tbody tr th:last-child {
+  width: 200px; }
+
+footer {
+  padding: 20px 0;
+  background-color: #fbfbfb;
+  border: 1px solid #e7e7e7; }
+  footer .footer-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px; }
+
+.slick-next:before, .slick-prev:before {
+  color: black; }
+
+.slick-container {
+  padding: 20px 10px;
+  margin-bottom: 30px; }
+  .slick-container .slider-item {
+    outline: none;
+    max-width: 200px; }
+    .slick-container .slider-item .item-detail .item-name {
+      min-height: 40px; }
+    .slick-container .slider-item .item-detail div:first-child, .slick-container .slider-item .item-detail div:nth-child(2) {
+      text-align: center;
+      overflow-wrap: break-word; }
+    .slick-container .slider-item .item-detail div:last-child {
+      display: flex;
+      justify-content: center; }
+
+.slick-bg {
+  margin-bottom: 30px; }
+  .slick-bg .top-slick {
+    outline: none; }
+    .slick-bg .top-slick img {
+      margin: 0 auto; }
+
+.main-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
+  .main-heading .about-section {
+    padding: 10px 15px;
+    background-color: #393536;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 27px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    line-height: 15px; }
+    .main-heading .about-section:before, .main-heading .about-section:after {
+      content: '';
+      height: 2px;
+      width: 207px;
+      background-color: #393536;
+      position: absolute;
+      top: 18px;
+      left: -216px; }
+    .main-heading .about-section::after {
+      left: unset;
+      right: -216px; }
+
+/*# sourceMappingURL=style.css.map */
